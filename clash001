@@ -5,6 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: NL, server: 154.84.1.37, port: 443, type: vmess, uuid: bad6de34-e23e-4a56-a162-f9b524447cc2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.37}}
+  - {name: NL 2, server: 154.84.1.180, port: 443, type: vmess, uuid: 0f55100c-8abb-4542-9e5a-ff7d8120e43d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.180}}
+  - {name: NL 3, server: 154.84.1.163, port: 443, type: vmess, uuid: c0b06dcf-ab46-454f-b173-4afadd9f56c8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.163}}
+  - {name: NL 4, server: 154.84.1.127, port: 443, type: vmess, uuid: 01f3e51f-4c86-48fe-9a03-202e93a46969, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.127}}
+  - {name: NL 5, server: 46.182.107.29, port: 443, type: vmess, uuid: 5e2b3301-d09b-401a-b465-94a8e0a68a79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 46.182.107.29}}
+  - {name: NL 6, server: 154.84.1.151, port: 443, type: vmess, uuid: fabb69a2-3fab-42ab-ab3f-048d51c8d010, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.151}}
+  - {name: NL 7, server: 154.84.1.115, port: 443, type: vmess, uuid: dd3ba81a-9b4e-4e7d-aae8-5a1daa89f9ac, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.115}}
+  - {name: NL 8, server: 46.182.107.14, port: 443, type: vmess, uuid: 046e37b4-962a-4dfd-a372-c52f8f90edc6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 46.182.107.14}}
+  - {name: NL 9, server: 154.84.1.225, port: 443, type: vmess, uuid: fac11238-1560-4c46-b93b-e92a71304005, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.225}}
+  - {name: NL 10, server: 46.182.107.11, port: 443, type: vmess, uuid: b438dc80-6336-4717-a770-7cb2068971aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 46.182.107.11}}
+  - {name: NL 11, server: 154.84.1.149, port: 443, type: vmess, uuid: 1655351f-8d5f-4e7a-9a86-b5bc4ed7da92, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.149}}
+  - {name: NL 12, server: 154.84.1.68, port: 443, type: vmess, uuid: 29f57ecb-1331-42a3-a635-4ad70f5fce32, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/210429171627, ws-headers: {Host: 154.84.1.68}}
+  - {name: NL 13, server: 46.182.107.32, port: 443, type: vmess, uuid: e1358875-8d22-4977-a24a-15f3f6df07af, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/210429171627, ws-headers: {Host: www.210429171627.xzy}}
+  - {name: NL 14, server: 5.180.79.11, port: 27449, type: vmess, uuid: 0cd64346-cd8d-4306-c256-05e12c76d5a5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 RU, server: 185.200.191.27, port: 48966, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.200.191.27}}
+  - {name: 🇷🇺 RU 2, server: 91.245.227.135, port: 38166, type: vmess, uuid: 9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.245.227.135}}
+  - {name: 🇷🇺 RU 3, server: 45.147.201.94, port: 40794, type: vmess, uuid: 236e835d-8b69-4e83-b9a4-02d289095006, alterId: 0, cipher: auto, tls: false}
+  - {name: "", server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: b8a4e40b-0458-3ba0-a28d-b5405de5bbe5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 🇸🇬 SG, server: s127.snodes.xyz, port: 443, type: vmess, uuid: fc1fd914-c061-3b57-97a4-6ee3588ce5ee, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s127.snodes.xyz}}
+  - {name: 🇸🇬 SG 2, server: s127.snodes.xyz, port: 80, type: vmess, uuid: fc1fd914-c061-3b57-97a4-6ee3588ce5ee, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /panel, ws-headers: {Host: s127.snodes.xyz}}
+  - {name: " 2", server: a46a5468362dd28b7.awsglobalaccelerator.com, port: 8082, type: vmess, uuid: 85681fe3-134d-3e4b-9940-b400cbb415a2, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /aga1, ws-headers: {Host: hk1.freeman.xyz}}
+  - {name: 🇺🇸 US, server: 23.224.31.202, port: 443, type: vmess, uuid: 28a84b69-e118-47a0-9869-f397bcc9fbbd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.31.202}}
+  - {name: " 3", server: 23.225.98.115, port: 443, type: vmess, uuid: cd04efa2-b14c-4de3-adde-a23e4d7a60dc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 23.225.98.115}}
+  - {name: 🇺🇸 US 2, server: 45.58.149.15, port: 443, type: vmess, uuid: f72de1a6-b823-4951-bf6b-8f5f2cfba0a3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 45.58.149.15}}
+  - {name: 🇺🇸 US 3, server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US 4, server: 158.247.209.122, port: 443, type: vmess, uuid: 54d48b3e-89f5-11eb-a57d-560003426bdc, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /wyCnX5Dc/, ws-headers: {Host: bigsur.cf}}
+  - {name: 🇺🇸 US 5, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
+  - {name: " 4", server: 22.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 21d8a117-0563-4083-84d5-e0f36e600cba, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 22.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: " 5", server: a1bcb60fbe21b2d2c.awsglobalaccelerator.com, port: 8082, type: vmess, uuid: fc62aed1-57b0-3956-bf63-2412f1e49702, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /aga2, ws-headers: {Host: hk2.freeman.xyz}}
+  - {name: 🇺🇸 US 6, server: 45.58.145.212, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: JPw 2, server: 134.122.189.149, port: 10004, type: vmess, uuid: aa9d9f44-09dc-47e6-9518-ec3ca7ab2a69, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 134.122.189.149}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987, server: v1-aws-sg-05.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-05.tudog.me}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: 470b1cfb-f116-3d9f-bcf0-cc939a505150, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 137.59.52.107:39772, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: c9e02a22-c4b8-39bd-b774-05b41559487a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 207.244.67.149:39772, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986, server: v1-aws-sg-10.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-10.tudog.me}}
+  - {name: 🇺🇸 美国() 14, server: ac2077.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2077.herokuapp.com}}
+  - {name: 🇺🇸 美国() 15, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: 🇺🇸 美国() 16, server: ac2099.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2099.herokuapp.com}}
+  - {name: 🇺🇸 美国() 18, server: bigsur.cf, port: 443, type: vmess, uuid: 54d48b3e-89f5-11eb-a57d-560003426bdc, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /wyCnX5Dc/, ws-headers: {Host: bigsur.cf}}
+  - {name: 🇺🇸 美国() 20, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 146.59.0.168:801, server: 146.59.0.168, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇷🇺 俄罗斯(), server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
+  - {name: 34.244.63.147:806, server: 34.244.63.147, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: m|直连节点, server: node01-trojan.cloudddns.icu, port: 1010, type: trojan, password: 0745dcc8-fab0-4ef8-af11-2a3a2b7a7016, sni: node01-trojan.cloudddns.icu}
+  - {name: 🇩🇪 m|德国07-直连, server: node07-v2ray.cloudddns.icu, port: 58888, type: vmess, uuid: 0745dcc8-fab0-4ef8-af11-2a3a2b7a7016, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: node07-v2ray.cloudddns.icu}}
+  - {name: 🇩🇪 m|德国08-直连, server: node08-v2ray.cloudddns.icu, port: 58888, type: vmess, uuid: 0745dcc8-fab0-4ef8-af11-2a3a2b7a7016, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: node08-v2ray.cloudddns.icu}}
+  - {name: 🇬🇧 m|英国09-直连, server: node09-v2ray.cloudddns.icu, port: 58888, type: vmess, uuid: 0745dcc8-fab0-4ef8-af11-2a3a2b7a7016, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: node09-v2ray.cloudddns.icu}}
   - {name: e 17, server: pologzcm.3sx.xyz, port: 10001, type: vmess, uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: microsoft.com}}
   - {name: e 18, server: pologzcm.3sx.xyz, port: 20008, type: vmess, uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: microsoft.com}}
   - {name: e 19, server: pologzcm.3sx.xyz, port: 20002, type: vmess, uuid: 1a7eec81-ad52-4f88-a578-7b2f09525271, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: microsoft.com}}
@@ -271,6 +320,55 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - NL
+      - NL 2
+      - NL 3
+      - NL 4
+      - NL 5
+      - NL 6
+      - NL 7
+      - NL 8
+      - NL 9
+      - NL 10
+      - NL 11
+      - NL 12
+      - NL 13
+      - NL 14
+      - 🇷🇺 RU
+      - 🇷🇺 RU 2
+      - 🇷🇺 RU 3
+      - ""
+      - 🇸🇬 SG
+      - 🇸🇬 SG 2
+      - " 2"
+      - 🇺🇸 US
+      - " 3"
+      - 🇺🇸 US 2
+      - 🇺🇸 US 3
+      - 🇺🇸 US 4
+      - 🇺🇸 US 5
+      - " 4"
+      - " 5"
+      - 🇺🇸 US 6
+      - JPw 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 137.59.52.107:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 207.244.67.149:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 🇺🇸 美国() 14
+      - 🇺🇸 美国() 15
+      - 🇺🇸 美国() 16
+      - 🇺🇸 美国() 18
+      - 🇺🇸 美国() 20
+      - 146.59.0.168:801
+      - 🇷🇺 俄罗斯()
+      - 34.244.63.147:806
+      - m|直连节点
+      - 🇩🇪 m|德国07-直连
+      - 🇩🇪 m|德国08-直连
+      - 🇬🇧 m|英国09-直连
       - e 17
       - e 18
       - e 19
@@ -527,6 +625,55 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - NL
+      - NL 2
+      - NL 3
+      - NL 4
+      - NL 5
+      - NL 6
+      - NL 7
+      - NL 8
+      - NL 9
+      - NL 10
+      - NL 11
+      - NL 12
+      - NL 13
+      - NL 14
+      - 🇷🇺 RU
+      - 🇷🇺 RU 2
+      - 🇷🇺 RU 3
+      - ""
+      - 🇸🇬 SG
+      - 🇸🇬 SG 2
+      - " 2"
+      - 🇺🇸 US
+      - " 3"
+      - 🇺🇸 US 2
+      - 🇺🇸 US 3
+      - 🇺🇸 US 4
+      - 🇺🇸 US 5
+      - " 4"
+      - " 5"
+      - 🇺🇸 US 6
+      - JPw 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 137.59.52.107:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 207.244.67.149:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 🇺🇸 美国() 14
+      - 🇺🇸 美国() 15
+      - 🇺🇸 美国() 16
+      - 🇺🇸 美国() 18
+      - 🇺🇸 美国() 20
+      - 146.59.0.168:801
+      - 🇷🇺 俄罗斯()
+      - 34.244.63.147:806
+      - m|直连节点
+      - 🇩🇪 m|德国07-直连
+      - 🇩🇪 m|德国08-直连
+      - 🇬🇧 m|英国09-直连
       - e 17
       - e 18
       - e 19
@@ -783,6 +930,55 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - NL
+      - NL 2
+      - NL 3
+      - NL 4
+      - NL 5
+      - NL 6
+      - NL 7
+      - NL 8
+      - NL 9
+      - NL 10
+      - NL 11
+      - NL 12
+      - NL 13
+      - NL 14
+      - 🇷🇺 RU
+      - 🇷🇺 RU 2
+      - 🇷🇺 RU 3
+      - ""
+      - 🇸🇬 SG
+      - 🇸🇬 SG 2
+      - " 2"
+      - 🇺🇸 US
+      - " 3"
+      - 🇺🇸 US 2
+      - 🇺🇸 US 3
+      - 🇺🇸 US 4
+      - 🇺🇸 US 5
+      - " 4"
+      - " 5"
+      - 🇺🇸 US 6
+      - JPw 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 137.59.52.107:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 207.244.67.149:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 🇺🇸 美国() 14
+      - 🇺🇸 美国() 15
+      - 🇺🇸 美国() 16
+      - 🇺🇸 美国() 18
+      - 🇺🇸 美国() 20
+      - 146.59.0.168:801
+      - 🇷🇺 俄罗斯()
+      - 34.244.63.147:806
+      - m|直连节点
+      - 🇩🇪 m|德国07-直连
+      - 🇩🇪 m|德国08-直连
+      - 🇬🇧 m|英国09-直连
       - e 17
       - e 18
       - e 19
@@ -1037,6 +1233,55 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - NL
+      - NL 2
+      - NL 3
+      - NL 4
+      - NL 5
+      - NL 6
+      - NL 7
+      - NL 8
+      - NL 9
+      - NL 10
+      - NL 11
+      - NL 12
+      - NL 13
+      - NL 14
+      - 🇷🇺 RU
+      - 🇷🇺 RU 2
+      - 🇷🇺 RU 3
+      - ""
+      - 🇸🇬 SG
+      - 🇸🇬 SG 2
+      - " 2"
+      - 🇺🇸 US
+      - " 3"
+      - 🇺🇸 US 2
+      - 🇺🇸 US 3
+      - 🇺🇸 US 4
+      - 🇺🇸 US 5
+      - " 4"
+      - " 5"
+      - 🇺🇸 US 6
+      - JPw 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 137.59.52.107:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 207.244.67.149:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 🇺🇸 美国() 14
+      - 🇺🇸 美国() 15
+      - 🇺🇸 美国() 16
+      - 🇺🇸 美国() 18
+      - 🇺🇸 美国() 20
+      - 146.59.0.168:801
+      - 🇷🇺 俄罗斯()
+      - 34.244.63.147:806
+      - m|直连节点
+      - 🇩🇪 m|德国07-直连
+      - 🇩🇪 m|德国08-直连
+      - 🇬🇧 m|英国09-直连
       - e 17
       - e 18
       - e 19
@@ -1302,6 +1547,55 @@ proxy-groups:
     proxies:
       - 🎯 总模式
       - 🚀 节点选择
+      - NL
+      - NL 2
+      - NL 3
+      - NL 4
+      - NL 5
+      - NL 6
+      - NL 7
+      - NL 8
+      - NL 9
+      - NL 10
+      - NL 11
+      - NL 12
+      - NL 13
+      - NL 14
+      - 🇷🇺 RU
+      - 🇷🇺 RU 2
+      - 🇷🇺 RU 3
+      - ""
+      - 🇸🇬 SG
+      - 🇸🇬 SG 2
+      - " 2"
+      - 🇺🇸 US
+      - " 3"
+      - 🇺🇸 US 2
+      - 🇺🇸 US 3
+      - 🇺🇸 US 4
+      - 🇺🇸 US 5
+      - " 4"
+      - " 5"
+      - 🇺🇸 US 6
+      - JPw 2
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2987
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2985
+      - 137.59.52.107:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2988
+      - 207.244.67.149:39772
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_2986
+      - 🇺🇸 美国() 14
+      - 🇺🇸 美国() 15
+      - 🇺🇸 美国() 16
+      - 🇺🇸 美国() 18
+      - 🇺🇸 美国() 20
+      - 146.59.0.168:801
+      - 🇷🇺 俄罗斯()
+      - 34.244.63.147:806
+      - m|直连节点
+      - 🇩🇪 m|德国07-直连
+      - 🇩🇪 m|德国08-直连
+      - 🇬🇧 m|英国09-直连
       - e 17
       - e 18
       - e 19
@@ -1618,6 +1912,7 @@ proxy-groups:
   - name: ⛩ 日韩媒体
     type: select
     proxies:
+      - JPw 2
       - m|🇯🇵JP_251
       - 🇯🇵 m|日本00 三网优化
       - JP顺丰资源Youtube
