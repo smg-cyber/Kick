@@ -5,6 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x, server: shcn2-04d.iplc188.com, port: 10001, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: 183.236.57.18, port: 10004, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x, server: abc.2589974338.tk, port: 443, type: vmess, uuid: e287b3c6-1cbc-43c7-85ea-65ffe2c80878, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /296b584da/, ws-headers: {Host: abc.2589974338.tk}}
+  - {name: 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x, server: 139.226.50.32, port: 10002, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x, server: 139.226.50.32, port: 10005, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x, server: 183.236.57.18, port: 10005, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x, server: 139.226.50.32, port: 10004, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x, server: cm.syhwdz.top, port: 36501, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: cm.syhwdz.top}}
+  - {name: 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x, server: vip345.xyz, port: 39016, type: vmess, uuid: c8f7eabd-230a-3144-a0c5-a2888a938cc6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
   - {name: 🇨🇳 台湾 ☆☆ 01 ☆NTT☆-1.2x, server: 183.236.57.18, port: 10003, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆-1.2x, server: 139.226.50.32, port: 10003, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆-1.2x, server: gy.nkeo.top, port: 10108, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.nkeo.top}}
