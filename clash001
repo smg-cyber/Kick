@@ -5,6 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_4408 |22.21Mb, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_05, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_12, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_14, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_15, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇨🇳 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇯🇵JP_16, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_25, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26, server: az1.keaiyun.xyz, port: 55105, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_27, server: az1.keaiyun.xyz, port: 55101, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28, server: az1.keaiyun.xyz, port: 31102, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_30, server: az1.keaiyun.xyz, port: 55102, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_32, server: az1.keaiyun.xyz, port: 31101, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_33, server: az1.keaiyun.xyz, port: 55100, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_34, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_35, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: https://www.mattkaydiary.com|, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡01 | AZ直连2Gbps | x1.0, server: 12v1sg01.airlanding.xyz, port: 18010, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 12v1sg01.airlanding.xyz}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡02 | AZ直连2Gbps | x1.0, server: 13v1sg02.airlanding.xyz, port: 18011, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 13v1sg02.airlanding.xyz}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0, server: 14v1hk06.airlanding.xyz, port: 18012, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 14v1hk06.airlanding.xyz}}
+  - {name: 🇹🇼 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇹🇼TW_25, server: cn2.relay.iplc.pro, port: 52012, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_296, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_298, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_300, server: 154.208.10.31, port: 31101, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_301, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_307, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【福利】HKG/香港 B, server: 52.80.96.133, port: 8000, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5, server: 05.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 05.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 1, server: 16.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 16.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 2, server: 17.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 17.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 4, server: 19.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 19.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 5, server: 20.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: https://www.mattkaydiary.com|_16, server: 18.162.96.154, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: 18.162.96.154}}
+  - {name: 🇯🇵 https://www.mattkaydiary.com|日本01 电信线路, server: 15.197.178.75, port: 25000, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 15.197.178.75}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国02 三网优化, server: vip345.xyz, port: 39020, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化, server: vip345.xyz, port: 39021, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|香港A 三网直连, server: vip345.xyz, port: 39006, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|香港B 三网直连, server: vip345.xyz, port: 39007, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连, server: vip345.xyz, port: 39009, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2739, server: 23.225.57.203, port: 443, type: vmess, uuid: 811782d9-6cdb-45dd-9448-1ec4c47ad564, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.34428394.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2743, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2744, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2745, server: 23.224.69.3, port: 443, type: vmess, uuid: 538d3b28-f335-4a0a-bda8-b5065fb1bfb7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.39930935.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2746, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x, server: cthtw.accesscam.org, port: 10096, type: vmess, uuid: 1aa1fa4f-1790-47d0-8b21-93e2d8c9455f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cthtw.accesscam.org}}
+  - {name: 🇹🇼 台湾 ☆☆ 02 ☆NTT☆   1.2x, server: cthtw02.ddnsfree.com, port: 16880, type: vmess, uuid: 1aa1fa4f-1790-47d0-8b21-93e2d8c9455f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cthtw02.ddnsfree.com}}
+  - {name: 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x, server: 23.225.57.203, port: 443, type: vmess, uuid: 811782d9-6cdb-45dd-9448-1ec4c47ad564, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.34428394.xyz}}
+  - {name: 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
+  - {name: 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x, server: 154.84.1.31, port: 443, type: vmess, uuid: 82e9f17c-cac2-45da-9c07-2967980a32a6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00225384.xyz}}
+  - {name: 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇺🇸 美国 ☆☆ 05 ☆NTT☆   1.2x, server: 23.225.9.252, port: 443, type: vmess, uuid: 2dd19ba3-f6d8-4562-8153-03ea94335111, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.38559541.xyz}}
   - {name: 🇯🇵 YouTube晓柒科技分享：日本, server: jp01.xqkj.cloud, port: 5008, type: vmess, uuid: 46f04701-591a-43e1-a560-93358a7c4065, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp01.xqkj.cloud}}
   - {name: 🇯🇵 YouTube晓柒科技分享：日本 2, server: jp02.xqkj.cloud, port: 5009, type: vmess, uuid: 46f04701-591a-43e1-a560-93358a7c4065, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp02.xqkj.cloud}}
   - {name: 🇯🇵 YouTube晓柒科技分享：日本 3, server: jp03.xqkj.cloud, port: 5010, type: vmess, uuid: 46f04701-591a-43e1-a560-93358a7c4065, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp03.xqkj.cloud}}
@@ -17,69 +70,6 @@ proxies:
   - {name: 🇰🇷 YouTube晓柒科技分享：韩国 2, server: kr02.xqkj.cloud, port: 5031, type: vmess, uuid: 46f04701-591a-43e1-a560-93358a7c4065, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr02.xqkj.cloud}}
   - {name: 🇰🇷 YouTube晓柒科技分享：韩国 3, server: kr03.xqkj.cloud, port: 5032, type: vmess, uuid: 46f04701-591a-43e1-a560-93358a7c4065, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr03.xqkj.cloud}}
   - {name: 🇰🇷 YouTube晓柒科技分享：韩国 4, server: kr04.xqkj.cloud, port: 5033, type: vmess, uuid: 46f04701-591a-43e1-a560-93358a7c4065, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr04.xqkj.cloud}}
-  - {name: 🇰🇷 顺丰资源Youtube韩国, server: v1.kr01.cocorouter.com, port: 18001, type: vmess, uuid: 4736f05c-72c6-3274-b13b-ab041e80d86a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v1.kr01.cocorouter.com}}
-  - {name: 顺丰资源Youtube, server: 139.226.50.32, port: 10002, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
-  - {name: 顺丰资源YouTube, server: 183.236.57.18, port: 10005, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 2, server: gefree1.free3333.xyz, port: 443, type: vmess, uuid: 6b7c64ca-4b77-4796-bdc6-254ed52a4c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree1.free3333.xyz}}
-  - {name: 🇺🇸 US顺丰资源Youtube, server: 23.225.98.115, port: 443, type: vmess, uuid: cd04efa2-b14c-4de3-adde-a23e4d7a60dc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.46815547.xyz}}
-  - {name: 🇺🇸 US顺丰资源Youtube 2, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6b7c64ca-4b77-4796-bdc6-254ed52a4c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree1.free3333.xyz}}
-  - {name: 顺丰资源YouTube 2, server: 183.236.57.18, port: 10004, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 3, server: 154.84.1.225, port: 443, type: vmess, uuid: fac11238-1560-4c46-b93b-e92a71304005, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.07197105.xyz}}
-  - {name: 顺丰资源Youtube 4, server: 46.182.107.29, port: 443, type: vmess, uuid: 5e2b3301-d09b-401a-b465-94a8e0a68a79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.73783566.xyz}}
-  - {name: 顺丰资源Youtube|NL, server: 154.84.1.175, port: 443, type: vmess, uuid: c49d20c4-aabb-4caa-9f75-538316b8e97a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.23439261.xyz}}
-  - {name: 🇺🇸 US顺丰资源Youtube 3, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
-  - {name: 顺丰资源Youtube 5, server: 46.182.107.26, port: 443, type: vmess, uuid: ed430006-3d07-4116-902b-649d3492c01a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.59299999.xyz}}
-  - {name: 顺丰资源Youtube 6, server: 45.147.201.94, port: 40794, type: vmess, uuid: 236e835d-8b69-4e83-b9a4-02d289095006, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 顺丰资源Youtube美国, server: 52.53.210.70, port: 56867, type: vmess, uuid: 6208032f-922b-4e21-eb62-ecd643b1675f, alterId: 64, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 7, server: 46.182.107.11, port: 443, type: vmess, uuid: b438dc80-6336-4717-a770-7cb2068971aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.46352799.xyz}}
-  - {name: 🇨🇳 CN顺丰资源Youtube, server: gy.nkeo.top, port: 10243, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.nkeo.top}}
-  - {name: 顺丰资源Youtube 8, server: 154.84.1.34, port: 443, type: vmess, uuid: f5713c1a-eeec-4f31-a51c-acb2b879144c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17888690.xyz}}
-  - {name: 🇮🇹 顺丰资源Youtube意大利, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 9, server: 154.84.1.151, port: 443, type: vmess, uuid: fabb69a2-3fab-42ab-ab3f-048d51c8d010, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.58613279.xyz}}
-  - {name: 顺丰资源Youtube 10, server: 154.84.1.149, port: 443, type: vmess, uuid: 1655351f-8d5f-4e7a-9a86-b5bc4ed7da92, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.41330606.xyz}}
-  - {name: 顺丰资源Youtube|NL 2, server: 154.84.1.31, port: 443, type: vmess, uuid: 82e9f17c-cac2-45da-9c07-2967980a32a6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00225384.xyz}}
-  - {name: 顺丰资源Youtube 11, server: 104.19.45.116, port: 443, type: vmess, uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ceae0e8d0e46, ws-headers: {Host: 35044ac9a120f4dd5.spbohk.com}}
-  - {name: 🇺🇸 US顺丰资源Youtube 4, server: 107.148.198.130, port: 443, type: vmess, uuid: 4df2e984-1d0d-40ec-8af0-6a746fea2e0e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17379738.xyz}}
-  - {name: 顺丰资源Youtube 12, server: 52.53.210.70, port: 56867, type: vmess, uuid: 6208032f-922b-4e21-eb62-ecd643b1675f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US顺丰资源Youtube 5, server: 63.141.236.243, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 顺丰资源Youtube 13, server: 154.84.1.163, port: 443, type: vmess, uuid: c0b06dcf-ab46-454f-b173-4afadd9f56c8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.53151238.xyz}}
-  - {name: 顺丰资源Youtube 14, server: 193.42.96.98, port: 30104, type: vmess, uuid: c7d03e59-8fff-463e-9589-9f8099d3e366, alterId: 64, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 15, server: 154.84.1.127, port: 443, type: vmess, uuid: 01f3e51f-4c86-48fe-9a03-202e93a46969, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.63681459.xyz}}
-  - {name: 顺丰资源Youtube|NL 3, server: 154.84.1.33, port: 443, type: vmess, uuid: 0165667d-54f2-479e-9bd7-e5548edc3194, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.44186580.xyz}}
-  - {name: 顺丰资源Youtube 16, server: 154.84.1.23, port: 443, type: vmess, uuid: f3875942-e838-4d0a-82fd-59e785941b63, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11314085.xyz}}
-  - {name: 顺丰资源Youtube 17, server: 46.182.107.5, port: 443, type: vmess, uuid: 9fb4ba62-3b1c-4987-8762-d1e4d346afd7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.16162053.xyz}}
-  - {name: 顺丰资源Youtube 18, server: 154.84.1.37, port: 443, type: vmess, uuid: bad6de34-e23e-4a56-a162-f9b524447cc2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.59438416.xyz}}
-  - {name: 顺丰资源Youtube 19, server: 154.84.1.150, port: 443, type: vmess, uuid: b6a1fc1e-5e56-47d5-b1af-76a3d81def37, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.24826945.xyz}}
-  - {name: 顺丰资源Youtube 20, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 顺丰资源Youtube 21, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 22, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 顺丰资源Youtube 23, server: t4.ssrsub.one, port: 8443, type: trojan, password: G3NqPEnb, sni: t4.ssrsub.one}
-  - {name: 顺丰资源Youtube 24, server: t3.ssrsub.one, port: 8443, type: trojan, password: 1PVhDs6Z, sni: t3.ssrsub.one}
-  - {name: 顺丰资源Youtube 25, server: t9.ssrsub.one, port: 443, type: trojan, password: nbIdUA3l, sni: t9.ssrsub.one}
-  - {name: 顺丰资源Youtube 26, server: t1.ssrsub.one, port: 443, type: trojan, password: ErcILMD9, sni: t1.ssrsub.one}
-  - {name: 顺丰资源Youtube 27, server: t5.ssrsub.one, port: 443, type: trojan, password: arfAuXgC, sni: t5.ssrsub.one}
-  - {name: 🇨🇦 顺丰资源Youtube加拿大, server: t3.ssrsub.one, port: 443, type: trojan, password: OphX58kC, sni: t3.ssrsub.one}
-  - {name: 顺丰资源Youtube 28, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 顺丰资源Youtube 29, server: 138.199.42.151, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 顺丰资源Youtube 30, server: ss5.ssrsub.one, port: 8443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 顺丰资源Youtube 31, server: t4.ssrsub.one, port: 443, type: trojan, password: H5i0RJMt, sni: t4.ssrsub.one}
-  - {name: 🇺🇸 顺丰资源Youtube|US, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.76126449.xyz}}
-  - {name: 🇺🇸 顺丰资源Youtube US, server: 45.58.145.212, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
-  - {name: 顺丰资源Youtube 32, server: t4.ssrsub.one, port: 443, type: trojan, password: H5i0RJMt, sni: t4.ssrsub.one}
-  - {name: 🇨🇦 顺丰资源Youtube加拿大 2, server: t3.ssrsub.one, port: 8443, type: trojan, password: 1PVhDs6Z, sni: t3.ssrsub.one}
-  - {name: 顺丰资源Youtube 33, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 顺丰资源Youtube 34, server: ss6.ssrsub.one, port: 8443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 顺丰资源Youtube 35, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 36, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇷🇺 俄罗斯顺丰资源Youtube, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN顺丰资源Youtube 2, server: cm.syhwdz.top, port: 32525, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: cm.syhwdz.top}}
-  - {name: 顺丰资源Youtube 37, server: 51.79.64.57, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: r4TeEt5bK0UD}
-  - {name: 🇷🇺 顺丰资源YouTube|RU, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
-  - {name: 顺丰资源Youtube 38, server: 154.84.1.238, port: 443, type: vmess, uuid: 5599a700-4f47-4673-b2c8-a4d9460ab0be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.84849018.xyz}}
-  - {name: 顺丰资源Youtube 39, server: 42.2.143.119, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 顺丰资源YouTube|, server: 139.226.50.32, port: 10003, type: vmess, uuid: 2f8b5974-2dd6-4421-9d35-ec0002020566, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇦 顺丰资源Youtube加拿大 3, server: t9.ssrsub.one, port: 443, type: trojan, password: nbIdUA3l, sni: t9.ssrsub.one}
-  - {name: 顺丰资源Youtube 40, server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
   - {name: YouTube-w 8, server: 154.84.1.33, port: 443, type: vmess, uuid: 0165667d-54f2-479e-9bd7-e5548edc3194, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.44186580.xyz}}
   - {name: YouTube-w 9, server: 154.84.1.37, port: 443, type: vmess, uuid: bad6de34-e23e-4a56-a162-f9b524447cc2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 154.84.1.37}}
   - {name: 🇬🇧 英国-w, server: 51.195.112.160, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 51.195.112.160}}
@@ -121,6 +111,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
@@ -132,6 +124,59 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_4408 |22.21Mb
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_12
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_14
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇨🇳 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇯🇵JP_16
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_25
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_27
+      - 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_30
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_32
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_33
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_34
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_35
+      - https://www.mattkaydiary.com|
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡01 | AZ直连2Gbps | x1.0
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡02 | AZ直连2Gbps | x1.0
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇹🇼 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇹🇼TW_25
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_296
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_298
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_300
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_301
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_307
+      - 🇭🇰 https://www.mattkaydiary.com|【福利】HKG/香港 B
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 1
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 5
+      - https://www.mattkaydiary.com|_16
+      - 🇯🇵 https://www.mattkaydiary.com|日本01 电信线路
+      - 🇺🇸 https://www.mattkaydiary.com|美国02 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港A 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港B 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2739
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2743
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2744
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2745
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2746
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇹🇼 台湾 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 05 ☆NTT☆   1.2x
       - 🇯🇵 YouTube晓柒科技分享：日本
       - 🇯🇵 YouTube晓柒科技分享：日本 2
       - 🇯🇵 YouTube晓柒科技分享：日本 3
@@ -144,69 +189,6 @@ proxy-groups:
       - 🇰🇷 YouTube晓柒科技分享：韩国 2
       - 🇰🇷 YouTube晓柒科技分享：韩国 3
       - 🇰🇷 YouTube晓柒科技分享：韩国 4
-      - 🇰🇷 顺丰资源Youtube韩国
-      - 顺丰资源Youtube
-      - 顺丰资源YouTube
-      - 顺丰资源Youtube 2
-      - 🇺🇸 US顺丰资源Youtube
-      - 🇺🇸 US顺丰资源Youtube 2
-      - 顺丰资源YouTube 2
-      - 顺丰资源Youtube 3
-      - 顺丰资源Youtube 4
-      - 顺丰资源Youtube|NL
-      - 🇺🇸 US顺丰资源Youtube 3
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 6
-      - 🇺🇸 顺丰资源Youtube美国
-      - 顺丰资源Youtube 7
-      - 🇨🇳 CN顺丰资源Youtube
-      - 顺丰资源Youtube 8
-      - 🇮🇹 顺丰资源Youtube意大利
-      - 顺丰资源Youtube 9
-      - 顺丰资源Youtube 10
-      - 顺丰资源Youtube|NL 2
-      - 顺丰资源Youtube 11
-      - 🇺🇸 US顺丰资源Youtube 4
-      - 顺丰资源Youtube 12
-      - 🇺🇸 US顺丰资源Youtube 5
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube 14
-      - 顺丰资源Youtube 15
-      - 顺丰资源Youtube|NL 3
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 19
-      - 顺丰资源Youtube 20
-      - 顺丰资源Youtube 21
-      - 顺丰资源Youtube 22
-      - 顺丰资源Youtube 23
-      - 顺丰资源Youtube 24
-      - 顺丰资源Youtube 25
-      - 顺丰资源Youtube 26
-      - 顺丰资源Youtube 27
-      - 🇨🇦 顺丰资源Youtube加拿大
-      - 顺丰资源Youtube 28
-      - 顺丰资源Youtube 29
-      - 顺丰资源Youtube 30
-      - 顺丰资源Youtube 31
-      - 🇺🇸 顺丰资源Youtube|US
-      - 🇺🇸 顺丰资源Youtube US
-      - 顺丰资源Youtube 32
-      - 🇨🇦 顺丰资源Youtube加拿大 2
-      - 顺丰资源Youtube 33
-      - 顺丰资源Youtube 34
-      - 顺丰资源Youtube 35
-      - 顺丰资源Youtube 36
-      - 🇷🇺 俄罗斯顺丰资源Youtube
-      - 🇨🇳 CN顺丰资源Youtube 2
-      - 顺丰资源Youtube 37
-      - 🇷🇺 顺丰资源YouTube|RU
-      - 顺丰资源Youtube 38
-      - 顺丰资源Youtube 39
-      - 顺丰资源YouTube|
-      - 🇨🇦 顺丰资源Youtube加拿大 3
-      - 顺丰资源Youtube 40
       - YouTube-w 8
       - YouTube-w 9
       - 🇬🇧 英国-w
@@ -249,6 +231,59 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_4408 |22.21Mb
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_12
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_14
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇨🇳 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇯🇵JP_16
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_25
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_27
+      - 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_30
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_32
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_33
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_34
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_35
+      - https://www.mattkaydiary.com|
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡01 | AZ直连2Gbps | x1.0
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡02 | AZ直连2Gbps | x1.0
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇹🇼 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇹🇼TW_25
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_296
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_298
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_300
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_301
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_307
+      - 🇭🇰 https://www.mattkaydiary.com|【福利】HKG/香港 B
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 1
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 5
+      - https://www.mattkaydiary.com|_16
+      - 🇯🇵 https://www.mattkaydiary.com|日本01 电信线路
+      - 🇺🇸 https://www.mattkaydiary.com|美国02 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港A 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港B 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2739
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2743
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2744
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2745
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2746
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇹🇼 台湾 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 05 ☆NTT☆   1.2x
       - 🇯🇵 YouTube晓柒科技分享：日本
       - 🇯🇵 YouTube晓柒科技分享：日本 2
       - 🇯🇵 YouTube晓柒科技分享：日本 3
@@ -261,69 +296,220 @@ proxy-groups:
       - 🇰🇷 YouTube晓柒科技分享：韩国 2
       - 🇰🇷 YouTube晓柒科技分享：韩国 3
       - 🇰🇷 YouTube晓柒科技分享：韩国 4
-      - 🇰🇷 顺丰资源Youtube韩国
-      - 顺丰资源Youtube
-      - 顺丰资源YouTube
-      - 顺丰资源Youtube 2
-      - 🇺🇸 US顺丰资源Youtube
-      - 🇺🇸 US顺丰资源Youtube 2
-      - 顺丰资源YouTube 2
-      - 顺丰资源Youtube 3
-      - 顺丰资源Youtube 4
-      - 顺丰资源Youtube|NL
-      - 🇺🇸 US顺丰资源Youtube 3
-      - 顺丰资源Youtube 5
-      - 顺丰资源Youtube 6
-      - 🇺🇸 顺丰资源Youtube美国
-      - 顺丰资源Youtube 7
-      - 🇨🇳 CN顺丰资源Youtube
-      - 顺丰资源Youtube 8
-      - 🇮🇹 顺丰资源Youtube意大利
-      - 顺丰资源Youtube 9
-      - 顺丰资源Youtube 10
-      - 顺丰资源Youtube|NL 2
-      - 顺丰资源Youtube 11
-      - 🇺🇸 US顺丰资源Youtube 4
-      - 顺丰资源Youtube 12
-      - 🇺🇸 US顺丰资源Youtube 5
-      - 顺丰资源Youtube 13
-      - 顺丰资源Youtube 14
-      - 顺丰资源Youtube 15
-      - 顺丰资源Youtube|NL 3
-      - 顺丰资源Youtube 16
-      - 顺丰资源Youtube 17
-      - 顺丰资源Youtube 18
-      - 顺丰资源Youtube 19
-      - 顺丰资源Youtube 20
-      - 顺丰资源Youtube 21
-      - 顺丰资源Youtube 22
-      - 顺丰资源Youtube 23
-      - 顺丰资源Youtube 24
-      - 顺丰资源Youtube 25
-      - 顺丰资源Youtube 26
-      - 顺丰资源Youtube 27
-      - 🇨🇦 顺丰资源Youtube加拿大
-      - 顺丰资源Youtube 28
-      - 顺丰资源Youtube 29
-      - 顺丰资源Youtube 30
-      - 顺丰资源Youtube 31
-      - 🇺🇸 顺丰资源Youtube|US
-      - 🇺🇸 顺丰资源Youtube US
-      - 顺丰资源Youtube 32
-      - 🇨🇦 顺丰资源Youtube加拿大 2
-      - 顺丰资源Youtube 33
-      - 顺丰资源Youtube 34
-      - 顺丰资源Youtube 35
-      - 顺丰资源Youtube 36
-      - 🇷🇺 俄罗斯顺丰资源Youtube
-      - 🇨🇳 CN顺丰资源Youtube 2
-      - 顺丰资源Youtube 37
-      - 🇷🇺 顺丰资源YouTube|RU
-      - 顺丰资源Youtube 38
-      - 顺丰资源Youtube 39
-      - 顺丰资源YouTube|
-      - 🇨🇦 顺丰资源Youtube加拿大 3
-      - 顺丰资源Youtube 40
+      - YouTube-w 8
+      - YouTube-w 9
+      - 🇬🇧 英国-w
+      - 🇺🇸 美国-w 25
+      - 🇺🇸 美国-w 26
+      - YouTube-w 10
+      - YouTube-w 11
+      - YouTube-w 12
+      - YouTube-w 13
+      - YouTube-w 14
+      - 🇳🇱 荷兰-w 5
+      - YouTube-w 15
+      - 🇺🇸 美国-w 27
+      - 🇺🇸 美国-w 28
+      - YouTube-w 16
+      - 🇺🇸 美国-w 29
+      - 🇺🇸 美国-w 30
+      - 🇳🇱 荷兰-w 6
+      - 🇺🇸 美国-w 31
+      - 🇺🇸 美国-w 32
+      - 🇺🇸 美国-w 33
+      - 🇭🇰 m|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇺🇸 m|🇺🇸US_2632 |74.65Mb
+      - m|
+      - 🇺🇸 m|Pool_🇺🇸US_749
+      - m|Pool_🇳🇱NL_98 | 8.58Mb
+      - 🇺🇸 m|Pool_🇺🇸US_163 | 3.79Mb
+      - 🇺🇸 m|🇺🇸US_164 |12.26Mb
+      - 🇺🇸 m|Pool_🇺🇸US_165 |26.77Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_169 |10.67Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_173 | 9.53Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_174 |10.17Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_175 |10.03Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_178 | 9.71Mb
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 02 ☆GMO☆  1.2x
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_4408 |22.21Mb
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_12
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_14
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇨🇳 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇯🇵JP_16
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_25
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_27
+      - 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_30
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_32
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_33
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_34
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_35
+      - https://www.mattkaydiary.com|
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡01 | AZ直连2Gbps | x1.0
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡02 | AZ直连2Gbps | x1.0
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇹🇼 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇹🇼TW_25
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_296
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_298
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_300
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_301
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_307
+      - 🇭🇰 https://www.mattkaydiary.com|【福利】HKG/香港 B
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 1
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 5
+      - https://www.mattkaydiary.com|_16
+      - 🇯🇵 https://www.mattkaydiary.com|日本01 电信线路
+      - 🇺🇸 https://www.mattkaydiary.com|美国02 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港A 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港B 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2739
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2743
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2744
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2745
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2746
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇹🇼 台湾 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 05 ☆NTT☆   1.2x
+      - 🇯🇵 YouTube晓柒科技分享：日本
+      - 🇯🇵 YouTube晓柒科技分享：日本 2
+      - 🇯🇵 YouTube晓柒科技分享：日本 3
+      - 🇯🇵 YouTube晓柒科技分享：日本 4
+      - 🇸🇬 YouTube晓柒科技分享：新加坡
+      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
+      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
+      - 🇸🇬 YouTube晓柒科技分享：新加坡 4
+      - 🇰🇷 YouTube晓柒科技分享：韩国
+      - 🇰🇷 YouTube晓柒科技分享：韩国 2
+      - 🇰🇷 YouTube晓柒科技分享：韩国 3
+      - 🇰🇷 YouTube晓柒科技分享：韩国 4
+      - YouTube-w 8
+      - YouTube-w 9
+      - 🇬🇧 英国-w
+      - 🇺🇸 美国-w 25
+      - 🇺🇸 美国-w 26
+      - YouTube-w 10
+      - YouTube-w 11
+      - YouTube-w 12
+      - YouTube-w 13
+      - YouTube-w 14
+      - 🇳🇱 荷兰-w 5
+      - YouTube-w 15
+      - 🇺🇸 美国-w 27
+      - 🇺🇸 美国-w 28
+      - YouTube-w 16
+      - 🇺🇸 美国-w 29
+      - 🇺🇸 美国-w 30
+      - 🇳🇱 荷兰-w 6
+      - 🇺🇸 美国-w 31
+      - 🇺🇸 美国-w 32
+      - 🇺🇸 美国-w 33
+      - 🇭🇰 m|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇺🇸 m|🇺🇸US_2632 |74.65Mb
+      - m|
+      - 🇺🇸 m|Pool_🇺🇸US_749
+      - m|Pool_🇳🇱NL_98 | 8.58Mb
+      - 🇺🇸 m|Pool_🇺🇸US_163 | 3.79Mb
+      - 🇺🇸 m|🇺🇸US_164 |12.26Mb
+      - 🇺🇸 m|Pool_🇺🇸US_165 |26.77Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_169 |10.67Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_173 | 9.53Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_174 |10.17Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_175 |10.03Mb
+      - 🇺🇸 m|Relay_🇺🇸US-🇩🇪DE_178 | 9.71Mb
+      - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 02 ☆GMO☆  1.2x
+  - name: 🔮 负载均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_4408 |22.21Mb
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_12
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_14
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇨🇳 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇯🇵JP_16
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_25
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_27
+      - 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_30
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_32
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_33
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_34
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_35
+      - https://www.mattkaydiary.com|
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡01 | AZ直连2Gbps | x1.0
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡02 | AZ直连2Gbps | x1.0
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇹🇼 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇹🇼TW_25
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_296
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_298
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_300
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_301
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_307
+      - 🇭🇰 https://www.mattkaydiary.com|【福利】HKG/香港 B
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 1
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 5
+      - https://www.mattkaydiary.com|_16
+      - 🇯🇵 https://www.mattkaydiary.com|日本01 电信线路
+      - 🇺🇸 https://www.mattkaydiary.com|美国02 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港A 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港B 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2739
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2743
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2744
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2745
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2746
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇹🇼 台湾 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
+      - 🇳🇱 荷兰 ☆☆  01 ☆AWS☆  1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 05 ☆NTT☆   1.2x
+      - 🇯🇵 YouTube晓柒科技分享：日本
+      - 🇯🇵 YouTube晓柒科技分享：日本 2
+      - 🇯🇵 YouTube晓柒科技分享：日本 3
+      - 🇯🇵 YouTube晓柒科技分享：日本 4
+      - 🇸🇬 YouTube晓柒科技分享：新加坡
+      - 🇸🇬 YouTube晓柒科技分享：新加坡 2
+      - 🇸🇬 YouTube晓柒科技分享：新加坡 3
+      - 🇸🇬 YouTube晓柒科技分享：新加坡 4
+      - 🇰🇷 YouTube晓柒科技分享：韩国
+      - 🇰🇷 YouTube晓柒科技分享：韩国 2
+      - 🇰🇷 YouTube晓柒科技分享：韩国 3
+      - 🇰🇷 YouTube晓柒科技分享：韩国 4
       - YouTube-w 8
       - YouTube-w 9
       - 🇬🇧 英国-w
@@ -536,6 +722,31 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_12
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_14
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇭🇰HK_15
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_25
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_27
+      - 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_30
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_32
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_33
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_34
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇭🇰HK_35
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
+      - 🇭🇰 https://www.mattkaydiary.com|【福利】HKG/香港 B
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 5
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 1
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 C - 5
+      - 🇭🇰 https://www.mattkaydiary.com|香港A 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港B 三网直连
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
       - 🇭🇰 m|🇭🇰 V1 | 香港06 | AGA直连1Gbps | x1.0
       - 🇭🇰 香港 ☆☆ 04 ☆GMO☆  1.2x
   - name: 🇯🇵 日本节点
@@ -544,6 +755,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇯🇵JP_16
+      - 🇭🇰 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇯🇵JP_26
+      - 🇯🇵 https://www.mattkaydiary.com|日本01 电信线路
       - 🇯🇵 YouTube晓柒科技分享：日本
       - 🇯🇵 YouTube晓柒科技分享：日本 2
       - 🇯🇵 YouTube晓柒科技分享：日本 3
@@ -555,14 +769,24 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 US顺丰资源Youtube
-      - 🇺🇸 US顺丰资源Youtube 2
-      - 🇺🇸 US顺丰资源Youtube 3
-      - 🇺🇸 顺丰资源Youtube美国
-      - 🇺🇸 US顺丰资源Youtube 4
-      - 🇺🇸 US顺丰资源Youtube 5
-      - 🇺🇸 顺丰资源Youtube|US
-      - 🇺🇸 顺丰资源Youtube US
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_4408 |22.21Mb
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_296
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_298
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_300
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_301
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_307
+      - 🇺🇸 https://www.mattkaydiary.com|美国02 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2739
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2743
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2744
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2745
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2746
+      - 🇺🇸 美国 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 02 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 03 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 04 ☆NTT☆   1.2x
+      - 🇺🇸 美国 ☆☆ 05 ☆NTT☆   1.2x
       - 🇺🇸 美国-w 25
       - 🇺🇸 美国-w 26
       - 🇺🇸 美国-w 27
@@ -588,13 +812,18 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇹🇼 https://www.mattkaydiary.com|Relay_🇨🇳CN-🇹🇼TW_25
+      - 🇹🇼 台湾 ☆☆ 01 ☆NTT☆   1.2x
+      - 🇹🇼 台湾 ☆☆ 02 ☆NTT☆   1.2x
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬 https://www.mattkaydiary.com|Relay_🇭🇰HK-🇸🇬SG_28
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡01 | AZ直连2Gbps | x1.0
+      - 🇸🇬 https://www.mattkaydiary.com|🇸🇬 V1 | 新加坡02 | AZ直连2Gbps | x1.0
       - 🇸🇬 YouTube晓柒科技分享：新加坡
       - 🇸🇬 YouTube晓柒科技分享：新加坡 2
       - 🇸🇬 YouTube晓柒科技分享：新加坡 3
@@ -609,7 +838,6 @@ proxy-groups:
       - 🇰🇷 YouTube晓柒科技分享：韩国 2
       - 🇰🇷 YouTube晓柒科技分享：韩国 3
       - 🇰🇷 YouTube晓柒科技分享：韩国 4
-      - 🇰🇷 顺丰资源Youtube韩国
   - name: 🎥 奈飞节点
     type: select
     proxies:
