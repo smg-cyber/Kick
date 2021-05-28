@@ -5,69 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇹🇼 TW02-高速解锁, server: cthtw.accesscam.org, port: 10098, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cthtw.accesscam.org}}
-  - {name: TH04-高速节点, server: xin.cthgo.me, port: 6813, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇹🇼 TW03-高速解锁, server: cthtw.accesscam.org, port: 10099, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cthtw.accesscam.org}}
-  - {name: PH01-高速节点, server: xin.cthgo.me, port: 5465, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇭🇰 HK01-高速节点, server: xg2.cthgo.me, port: 43587, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xg2.cthgo.me}}
-  - {name: 🇭🇰 HK02-高速免流, server: xg2.cthgo.me, port: 80, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xg2.cthgo.me}}
-  - {name: CA01-高速节点, server: xin.cthgo.me, port: 2020, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇭🇰 HK04-高速节点, server: xin.cthgo.me, port: 10001, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇷🇺 RU01-高速节点, server: xg2.cthgo.me, port: 43585, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xg2.cthgo.me}}
-  - {name: 🇹🇼 TW04-高速解锁, server: cthtw.accesscam.org, port: 10100, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cthtw.accesscam.org}}
-  - {name: TH02-高速节点, server: xin.cthgo.me, port: 6811, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇭🇰 HK03-高速节点, server: xin.cthgo.me, port: 10096, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: KR01-高速节点, server: xin.cthgo.me, port: 2012, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇸🇬 SG01-高速节点, server: xg2.cthgo.me, port: 10093, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xg2.cthgo.me}}
-  - {name: TH03-高速节点, server: xin.cthgo.me, port: 6812, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: PH03-高速节点, server: xin.cthgo.me, port: 5467, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: PH02-高速节点, server: xin.cthgo.me, port: 5466, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x, server: vip345.xyz, port: 39017, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x, server: 120.209.136.73, port: 10080, type: vmess, uuid: 34e9868d-7cf9-44ec-b42d-13da9c95d00e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.209.136.73}}
-  - {name: 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x, server: xg2.cthgo.me, port: 43585, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xg2.cthgo.me}}
-  - {name: 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x, server: xin.cthgo.me, port: 10001, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x, server: az1.keaiyun.xyz, port: 55105, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x, server: 52.79.228.10, port: 36597, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
-  - {name: https://www.mattkaydiary.com|, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0, server: 06v1jp02.airlanding.xyz, port: 18004, type: vmess, uuid: 4736f05c-72c6-3274-b13b-ab041e80d86a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 06v1jp02.airlanding.xyz}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2, server: 06v1jp02.airlanding.xyz, port: 18004, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 06v1jp02.airlanding.xyz}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3, server: 03.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 03.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4, server: 04.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 04.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8, server: 08.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 08.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9, server: 09.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 09.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10, server: 10.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 10.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5, server: 30.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 30.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1, server: 31.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 31.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2, server: 32.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 32.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3, server: 33.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 33.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5, server: 35.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1, server: 36.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 36.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3, server: 38.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 38.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5, server: 40.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 40.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇰🇷 https://www.mattkaydiary.com|韩国首尔, server: 15.164.164.114, port: 8888, type: vmess, uuid: 512a9e70-3858-49b1-9f46-e9c563214a81, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 15.164.164.114}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用), server: 107.191.60.215, port: 6666, type: vmess, uuid: 512a9e70-3858-49b1-9f46-e9c563214a81, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.191.60.215}}
-  - {name: https://www.mattkaydiary.com|🇨🇦 CA_377, server: 45.62.229.13, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t5.ssrsub.one}}
-  - {name: https://www.mattkaydiary.com|🇨🇦 CA_378, server: 142.47.222.7, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t3.ssrsub.one}}
-  - {name: https://www.mattkaydiary.com|🇨🇦 CA_379, server: 45.62.233.34, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t2.ssrsub.one}}
-  - {name: https://www.mattkaydiary.com|🇨🇦 CA_380, server: 45.62.245.20, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t1.ssrsub.one}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144, server: xin.cthgo.me, port: 2020, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145, server: xin.cthgo.me, port: 10096, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150, server: xin.cthgo.me, port: 5466, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151, server: xin.cthgo.me, port: 5467, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
-  - {name: https://www.mattkaydiary.com|🇮🇪 IE_1245, server: lulu0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: lulu0528.herokuapp.com}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696, server: www.gov.hk, port: 2053, type: vmess, uuid: 3ce5e294-bfa5-11eb-a622-aa22ff9a3d19, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8PYgyBid/, ws-headers: {Host: t8.ssrsub.one}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697, server: 205.185.122.222, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t7.ssrsub.one}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699, server: 104.19.64.83, port: 443, type: vmess, uuid: e1934f6e-ae2c-41e7-8877-844152137c1e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: buy.1808.cf}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700, server: 213.59.118.168, port: 2053, type: vmess, uuid: 3ce5e294-bfa5-11eb-a622-aa22ff9a3d19, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8PYgyBid/, ws-headers: {Host: t8.ssrsub.one}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化, server: vip345.xyz, port: 39019, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化, server: vip345.xyz, port: 39021, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化, server: vip345.xyz, port: 39023, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化, server: 13.75.111.138, port: 39020, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 13.75.111.138}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化, server: 13.75.111.138, port: 39021, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 13.75.111.138}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连, server: vip345.xyz, port: 39009, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
   - {name: 185.124.240.149:39772, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 138.199.42.151:49396, server: 138.199.42.151, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 195.47.194.79:49396, server: 195.47.194.79, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
@@ -143,6 +80,52 @@ proxies:
   - {name: 🇨🇳 CN_707, server: yx1.jyproxy.cn, port: 80, type: vmess, uuid: 4b6441d3-b2c5-36b7-8f87-52f95398d3d7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: QQ354664434}}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_708, server: cn1.relay.iplc.pro, port: 52000, type: vmess, uuid: 8a2f6e39-8c0c-46bd-bbd8-3ed393235dcd, alterId: 1, cipher: auto, tls: false}
   - {name: 🇺🇸 Relay_🇨🇳CN-🇺🇸US_709, server: hk1.iplc.pro, port: 52000, type: vmess, uuid: 8a2f6e39-8c0c-46bd-bbd8-3ed393235dcd, alterId: 1, cipher: auto, tls: false}
+  - {name: https://www.mattkaydiary.com|, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0, server: 06v1jp02.airlanding.xyz, port: 18004, type: vmess, uuid: 4736f05c-72c6-3274-b13b-ab041e80d86a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 06v1jp02.airlanding.xyz}}
+  - {name: 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2, server: 06v1jp02.airlanding.xyz, port: 18004, type: vmess, uuid: 500914a7-1ede-3a31-aa4e-fd33e305d6aa, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: 06v1jp02.airlanding.xyz}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3, server: 03.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 03.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4, server: 04.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 04.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8, server: 08.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 08.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9, server: 09.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 09.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10, server: 10.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 10.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5, server: 30.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 30.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1, server: 31.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 31.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2, server: 32.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 32.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3, server: 33.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 33.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5, server: 35.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1, server: 36.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 36.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3, server: 38.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 38.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5, server: 40.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0821b208-8675-43e8-bbed-8afac1e391a1, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 40.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇰🇷 https://www.mattkaydiary.com|韩国首尔, server: 15.164.164.114, port: 8888, type: vmess, uuid: 512a9e70-3858-49b1-9f46-e9c563214a81, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 15.164.164.114}}
+  - {name: 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用), server: 107.191.60.215, port: 6666, type: vmess, uuid: 512a9e70-3858-49b1-9f46-e9c563214a81, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.191.60.215}}
+  - {name: https://www.mattkaydiary.com|🇨🇦 CA_377, server: 45.62.229.13, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t5.ssrsub.one}}
+  - {name: https://www.mattkaydiary.com|🇨🇦 CA_378, server: 142.47.222.7, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t3.ssrsub.one}}
+  - {name: https://www.mattkaydiary.com|🇨🇦 CA_379, server: 45.62.233.34, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t2.ssrsub.one}}
+  - {name: https://www.mattkaydiary.com|🇨🇦 CA_380, server: 45.62.245.20, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t1.ssrsub.one}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144, server: xin.cthgo.me, port: 2020, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145, server: xin.cthgo.me, port: 10096, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150, server: xin.cthgo.me, port: 5466, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151, server: xin.cthgo.me, port: 5467, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
+  - {name: https://www.mattkaydiary.com|🇮🇪 IE_1245, server: lulu0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: lulu0528.herokuapp.com}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696, server: www.gov.hk, port: 2053, type: vmess, uuid: 3ce5e294-bfa5-11eb-a622-aa22ff9a3d19, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8PYgyBid/, ws-headers: {Host: t8.ssrsub.one}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697, server: 205.185.122.222, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: t7.ssrsub.one}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699, server: 104.19.64.83, port: 443, type: vmess, uuid: e1934f6e-ae2c-41e7-8877-844152137c1e, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /xrayvws, ws-headers: {Host: buy.1808.cf}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700, server: 213.59.118.168, port: 2053, type: vmess, uuid: 3ce5e294-bfa5-11eb-a622-aa22ff9a3d19, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8PYgyBid/, ws-headers: {Host: t8.ssrsub.one}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化, server: vip345.xyz, port: 39019, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化, server: vip345.xyz, port: 39021, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化, server: vip345.xyz, port: 39023, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化, server: 13.75.111.138, port: 39020, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 13.75.111.138}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化, server: 13.75.111.138, port: 39021, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 13.75.111.138}}
+  - {name: 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连, server: vip345.xyz, port: 39009, type: vmess, uuid: 772ebcbc-d60a-3fa7-b46c-b151c9f92122, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x, server: vip345.xyz, port: 39017, type: vmess, uuid: 1ae6b7f7-69d4-366c-903f-a1d6b317164e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x, server: 120.209.136.73, port: 10080, type: vmess, uuid: 34e9868d-7cf9-44ec-b42d-13da9c95d00e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.209.136.73}}
+  - {name: 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x, server: xg2.cthgo.me, port: 43585, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xg2.cthgo.me}}
+  - {name: 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x, server: xin.cthgo.me, port: 10001, type: vmess, uuid: 5a44027c-9183-4cf8-8778-d3cdc90852fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: xin.cthgo.me}}
+  - {name: 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x, server: az1.keaiyun.xyz, port: 55105, type: vmess, uuid: c2fe97c7-2ace-3b20-b40f-46edb61def64, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: a72e2f68-e7cb-447b-86e9-98a207e53c5d, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x, server: 52.79.228.10, port: 36597, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -151,69 +134,6 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇹🇼 TW02-高速解锁
-      - TH04-高速节点
-      - 🇹🇼 TW03-高速解锁
-      - PH01-高速节点
-      - 🇭🇰 HK01-高速节点
-      - 🇭🇰 HK02-高速免流
-      - CA01-高速节点
-      - 🇭🇰 HK04-高速节点
-      - 🇷🇺 RU01-高速节点
-      - 🇹🇼 TW04-高速解锁
-      - TH02-高速节点
-      - 🇭🇰 HK03-高速节点
-      - KR01-高速节点
-      - 🇸🇬 SG01-高速节点
-      - TH03-高速节点
-      - PH03-高速节点
-      - PH02-高速节点
-      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
-      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
-      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
-      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
-      - https://www.mattkaydiary.com|
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
-      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
-      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
-      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
-      - https://www.mattkaydiary.com|🇨🇦 CA_377
-      - https://www.mattkaydiary.com|🇨🇦 CA_378
-      - https://www.mattkaydiary.com|🇨🇦 CA_379
-      - https://www.mattkaydiary.com|🇨🇦 CA_380
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
-      - https://www.mattkaydiary.com|🇮🇪 IE_1245
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
-      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
       - 185.124.240.149:39772
       - 138.199.42.151:49396
       - 195.47.194.79:49396
@@ -289,75 +209,58 @@ proxy-groups:
       - 🇨🇳 CN_707
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_708
       - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_709
+      - https://www.mattkaydiary.com|
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
+      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
+      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
+      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
+      - https://www.mattkaydiary.com|🇨🇦 CA_377
+      - https://www.mattkaydiary.com|🇨🇦 CA_378
+      - https://www.mattkaydiary.com|🇨🇦 CA_379
+      - https://www.mattkaydiary.com|🇨🇦 CA_380
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
+      - https://www.mattkaydiary.com|🇮🇪 IE_1245
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
+      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
+      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
+      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
+      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇹🇼 TW02-高速解锁
-      - TH04-高速节点
-      - 🇹🇼 TW03-高速解锁
-      - PH01-高速节点
-      - 🇭🇰 HK01-高速节点
-      - 🇭🇰 HK02-高速免流
-      - CA01-高速节点
-      - 🇭🇰 HK04-高速节点
-      - 🇷🇺 RU01-高速节点
-      - 🇹🇼 TW04-高速解锁
-      - TH02-高速节点
-      - 🇭🇰 HK03-高速节点
-      - KR01-高速节点
-      - 🇸🇬 SG01-高速节点
-      - TH03-高速节点
-      - PH03-高速节点
-      - PH02-高速节点
-      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
-      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
-      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
-      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
-      - https://www.mattkaydiary.com|
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
-      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
-      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
-      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
-      - https://www.mattkaydiary.com|🇨🇦 CA_377
-      - https://www.mattkaydiary.com|🇨🇦 CA_378
-      - https://www.mattkaydiary.com|🇨🇦 CA_379
-      - https://www.mattkaydiary.com|🇨🇦 CA_380
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
-      - https://www.mattkaydiary.com|🇮🇪 IE_1245
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
-      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
       - 185.124.240.149:39772
       - 138.199.42.151:49396
       - 195.47.194.79:49396
@@ -433,74 +336,57 @@ proxy-groups:
       - 🇨🇳 CN_707
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_708
       - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_709
+      - https://www.mattkaydiary.com|
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
+      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
+      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
+      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
+      - https://www.mattkaydiary.com|🇨🇦 CA_377
+      - https://www.mattkaydiary.com|🇨🇦 CA_378
+      - https://www.mattkaydiary.com|🇨🇦 CA_379
+      - https://www.mattkaydiary.com|🇨🇦 CA_380
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
+      - https://www.mattkaydiary.com|🇮🇪 IE_1245
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
+      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
+      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
+      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
+      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇹🇼 TW02-高速解锁
-      - TH04-高速节点
-      - 🇹🇼 TW03-高速解锁
-      - PH01-高速节点
-      - 🇭🇰 HK01-高速节点
-      - 🇭🇰 HK02-高速免流
-      - CA01-高速节点
-      - 🇭🇰 HK04-高速节点
-      - 🇷🇺 RU01-高速节点
-      - 🇹🇼 TW04-高速解锁
-      - TH02-高速节点
-      - 🇭🇰 HK03-高速节点
-      - KR01-高速节点
-      - 🇸🇬 SG01-高速节点
-      - TH03-高速节点
-      - PH03-高速节点
-      - PH02-高速节点
-      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
-      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
-      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
-      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
-      - https://www.mattkaydiary.com|
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
-      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
-      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
-      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
-      - https://www.mattkaydiary.com|🇨🇦 CA_377
-      - https://www.mattkaydiary.com|🇨🇦 CA_378
-      - https://www.mattkaydiary.com|🇨🇦 CA_379
-      - https://www.mattkaydiary.com|🇨🇦 CA_380
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
-      - https://www.mattkaydiary.com|🇮🇪 IE_1245
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
-      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
       - 185.124.240.149:39772
       - 138.199.42.151:49396
       - 195.47.194.79:49396
@@ -576,74 +462,57 @@ proxy-groups:
       - 🇨🇳 CN_707
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_708
       - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_709
+      - https://www.mattkaydiary.com|
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
+      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
+      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
+      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
+      - https://www.mattkaydiary.com|🇨🇦 CA_377
+      - https://www.mattkaydiary.com|🇨🇦 CA_378
+      - https://www.mattkaydiary.com|🇨🇦 CA_379
+      - https://www.mattkaydiary.com|🇨🇦 CA_380
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
+      - https://www.mattkaydiary.com|🇮🇪 IE_1245
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
+      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
+      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
+      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
+      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇹🇼 TW02-高速解锁
-      - TH04-高速节点
-      - 🇹🇼 TW03-高速解锁
-      - PH01-高速节点
-      - 🇭🇰 HK01-高速节点
-      - 🇭🇰 HK02-高速免流
-      - CA01-高速节点
-      - 🇭🇰 HK04-高速节点
-      - 🇷🇺 RU01-高速节点
-      - 🇹🇼 TW04-高速解锁
-      - TH02-高速节点
-      - 🇭🇰 HK03-高速节点
-      - KR01-高速节点
-      - 🇸🇬 SG01-高速节点
-      - TH03-高速节点
-      - PH03-高速节点
-      - PH02-高速节点
-      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
-      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
-      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
-      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
-      - https://www.mattkaydiary.com|
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
-      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
-      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
-      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
-      - https://www.mattkaydiary.com|🇨🇦 CA_377
-      - https://www.mattkaydiary.com|🇨🇦 CA_378
-      - https://www.mattkaydiary.com|🇨🇦 CA_379
-      - https://www.mattkaydiary.com|🇨🇦 CA_380
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
-      - https://www.mattkaydiary.com|🇮🇪 IE_1245
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
-      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
       - 185.124.240.149:39772
       - 138.199.42.151:49396
       - 195.47.194.79:49396
@@ -719,6 +588,52 @@ proxy-groups:
       - 🇨🇳 CN_707
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_708
       - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_709
+      - https://www.mattkaydiary.com|
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
+      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
+      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
+      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
+      - https://www.mattkaydiary.com|🇨🇦 CA_377
+      - https://www.mattkaydiary.com|🇨🇦 CA_378
+      - https://www.mattkaydiary.com|🇨🇦 CA_379
+      - https://www.mattkaydiary.com|🇨🇦 CA_380
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
+      - https://www.mattkaydiary.com|🇮🇪 IE_1245
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
+      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
+      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
+      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
+      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -738,69 +653,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇹🇼 TW02-高速解锁
-      - TH04-高速节点
-      - 🇹🇼 TW03-高速解锁
-      - PH01-高速节点
-      - 🇭🇰 HK01-高速节点
-      - 🇭🇰 HK02-高速免流
-      - CA01-高速节点
-      - 🇭🇰 HK04-高速节点
-      - 🇷🇺 RU01-高速节点
-      - 🇹🇼 TW04-高速解锁
-      - TH02-高速节点
-      - 🇭🇰 HK03-高速节点
-      - KR01-高速节点
-      - 🇸🇬 SG01-高速节点
-      - TH03-高速节点
-      - PH03-高速节点
-      - PH02-高速节点
-      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
-      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
-      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
-      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
-      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
-      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
-      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
-      - https://www.mattkaydiary.com|
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
-      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
-      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
-      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
-      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
-      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
-      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
-      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
-      - https://www.mattkaydiary.com|🇨🇦 CA_377
-      - https://www.mattkaydiary.com|🇨🇦 CA_378
-      - https://www.mattkaydiary.com|🇨🇦 CA_379
-      - https://www.mattkaydiary.com|🇨🇦 CA_380
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
-      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
-      - https://www.mattkaydiary.com|🇮🇪 IE_1245
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
-      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
-      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
-      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
       - 185.124.240.149:39772
       - 138.199.42.151:49396
       - 195.47.194.79:49396
@@ -876,6 +728,52 @@ proxy-groups:
       - 🇨🇳 CN_707
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_708
       - 🇺🇸 Relay_🇨🇳CN-🇺🇸US_709
+      - https://www.mattkaydiary.com|
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0
+      - 🇯🇵 https://www.mattkaydiary.com|🇯🇵 V1 | 日本02 | AZ直连2Gbps | x1.0 2
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 3
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 4
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 8
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 9
+      - 🇭🇰 https://www.mattkaydiary.com|【直连】HKG/香港 A - 10
+      - 🇯🇵 https://www.mattkaydiary.com|【直连】NRT/东京 B - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 2
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 A - 5
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 1
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 3
+      - 🇸🇬 https://www.mattkaydiary.com|【直连】SIN/狮城 B - 5
+      - 🇺🇸 https://www.mattkaydiary.com|Relay_🇺🇸US-🇩🇪DE_188
+      - 🇰🇷 https://www.mattkaydiary.com|韩国首尔
+      - 🇯🇵 https://www.mattkaydiary.com|日本东京(推荐使用)
+      - https://www.mattkaydiary.com|🇨🇦 CA_377
+      - https://www.mattkaydiary.com|🇨🇦 CA_378
+      - https://www.mattkaydiary.com|🇨🇦 CA_379
+      - https://www.mattkaydiary.com|🇨🇦 CA_380
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1144
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1145
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1150
+      - 🇭🇰 https://www.mattkaydiary.com|🇭🇰 HK_1151
+      - https://www.mattkaydiary.com|🇮🇪 IE_1245
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2696
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2697
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2699
+      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_2700
+      - 🇺🇸 https://www.mattkaydiary.com|美国01 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国03 三网优化
+      - 🇺🇸 https://www.mattkaydiary.com|美国05 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港02 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港03 三网优化
+      - 🇭🇰 https://www.mattkaydiary.com|香港D 三网直连
+      - 🇷🇺 俄罗斯 ☆☆  01 ☆AWS☆  1.2x
+      - 🇸🇬 新加坡 ☆☆  01 ☆AWS☆  1.2x
+      - 🇭🇰 香港 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 02 ☆GMO☆  1.2x
+      - 🇯🇵 日本 ☆☆ 01 ☆GMO☆  1.2x
+      - 🇭🇰 香港 ☆☆ 03 ☆GMO☆  1.2x
+      - 🇰🇷 韩国 ☆☆  01 ☆AWS☆  1.2x
+      - 🇷🇺 俄罗斯 ☆☆  02 ☆AWS☆  1.2x
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
